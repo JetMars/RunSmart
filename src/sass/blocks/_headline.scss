@@ -1,0 +1,14 @@
+.headline {
+    color: #0d0d0d;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 54px;
+    margin: 0;
+    &_left {
+        font-size: 36px;
+        color: #ffffff;
+        text-align: left;
+    }
+}

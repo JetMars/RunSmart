@@ -21,13 +21,13 @@
             margin-top: 8px;
         }
     }
-    .header__contacts {
+    &__contacts {
         display: flex;
         flex-direction: column;
         align-items: flex-end;
         width: 249px;
     }
-    .header__phone {
+    &__phone {
         font-weight: 700;
         font-size: 18px;
         color: #ffffff;

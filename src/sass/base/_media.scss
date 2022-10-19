@@ -2,18 +2,136 @@
 }
 
 @media (max-width: 991px) {
-}
-
-@media (max-width: 767px) {
-    .advantage {
-        .advantage__item {
-            width: 230px;
+    .headline {
+        &_left {
+            font-size: 28px;
         }
     }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 767px) {
+    .header {
+        &__logo {
+            width: 199px;
+        }
+        &__official {
+            span {
+                line-height: 23px;
+                font-size: 14px;
+                margin-top: 0;
+            }
+        }
+        &__contacts {
+            width: 163px;
+        }
+    }
+    .promo {
+        &__title {
+            font-size: 39px;
+        }
+        &__subtitle {
+            font-size: 21px;
+        }
+    }
+    .advantage {
+        &__item {
+            width: 177px;
+        }
+        &__item-header {
+            font-size: 15px;
+        }
+        &__item-discr {
+            font-size: 13px;
+        }
+    }
+    .headline {
+        &_left {
+            font-size: 23px;
+            line-height: 40px;
+            text-align: center;
+        }
+    }
+    .consultation {
+        &__discr {
+            font-size: 18px;
+            text-align: center;
+        }
+    }
+    .feed-form {
+        margin: 0 auto;
+    }
 }
 
-@media (max-width: 319px) {
+@media (max-width: 575px) {
+    .header {
+        &__official {
+            display: none;
+        }
+        &__contacts {
+            width: 154px;
+        }
+        &__phone {
+            font-size: 14px;
+        }
+    }
+    .button {
+        width: 114px;
+        font-size: 10px;
+        &_main {
+            font-size: 12px;
+            width: 180px;
+        }
+        &_submit {
+            width: 100%;
+            font-size: 15px;
+        }
+    }
+    .promo {
+        &__title {
+            font-size: 22px;
+        }
+        &__subtitle {
+            font-size: 12px;
+        }
+        &__icons {
+            min-width: 0;
+        }
+        &__icon {
+            font-size: 11px;
+            width: 95px;
+        }
+        &__link {
+            font-size: 12px;
+        }
+    }
+    .headline {
+        font-size: 22px;
+        &_left {
+            font-size: 13px;
+            line-height: 30px;
+        }
+    }
+    .advantage {
+        padding: 48px 0 60px 0;
+        &__items {
+            margin-top: 28px;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item {
+            width: 230px;
+            margin-bottom: 10px;
+        }
+        &__item-header {
+            margin-top: 13px;
+        }
+        &__item-discr {
+            margin-top: 6px;
+        }
+    }
+    .consultation {
+        &__discr {
+            font-size: 14px;
+        }
+    }
 }
