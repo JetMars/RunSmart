@@ -1,0 +1,103 @@
+.catalog {
+    padding: 26px 0 40px 0;
+    &__tabs {
+        margin: 0;
+        margin-top: 46px;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    &__tab {
+        width: 220px;
+        height: 50px;
+        border: 2px solid #d0d0d0;
+        text-align: center;
+        line-height: 48px;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 18px;
+        color: #6b6b6b;
+        transform: skewX(-25deg);
+        transition: all 0.5s;
+        cursor: pointer;
+        &:hover {
+            box-shadow: 3px 3px 20px $main-color;
+            border: none;
+        }
+        div {
+            transform: skewX(25deg);
+        }
+        &_active {
+            background-color: $main-color;
+            color: #ffffff;
+            border: none;
+        }
+    }
+
+    &__content {
+        margin: 57px;
+    }
+    &__item {
+        width: 303px;
+        min-height: 442px;
+        border: 2px solid #e8e8e8;
+    }
+    &-item {
+        &__img {
+            display: block;
+            margin: 0 auto;
+            margin-top: 20px;
+            width: 140ox;
+        }
+        &__subtitle {
+            font-weight: 700;
+            font-size: 16px;
+            color: #0d0d0d;
+            text-align: center;
+            margin-top: 15px;
+        }
+        &__discr {
+            font-weight: 300;
+            font-size: 14px;
+            height: 41px;
+            color: #0d0d0d;
+            text-align: center;
+            margin-top: 15px;
+        }
+        &__link {
+            display: block;
+            margin-top: 10px;
+            font-weight: 500;
+            font-size: 14px;
+            color: $main-color;
+            text-align: center;
+            text-decoration-line: underline;
+        }
+        &__footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 19px 0 23px;
+        }
+        &__prices {
+        }
+        &__old-price {
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 14px;
+            color: #555555;
+            text-decoration-line: line-through;
+        }
+        &__price {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 20px;
+            color: #050505;
+        }
+    }
+    &__liner {
+        margin: 19px 21px 20px 21px;
+    }
+}
