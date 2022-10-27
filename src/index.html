@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>RunSmart</title>
 	<link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
-	<!-- <link rel="stylesheet" href="css/stylesheet.css"> -->
+	<link rel="stylesheet" href="css/fonts.css">
 	<link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;400;500;700&display=swap"
 		rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
@@ -125,18 +125,18 @@
 			<h2 class="headline headline_catalog">Каталог пульсометров</h2>
 
 			<ul class="catalog__tabs">
-				<li class="catalog__tab catalog__tab_active">
+				<li class="catalog__tab">
 					<div>Для фитнеса</div>
 				</li>
 				<li class="catalog__tab">
 					<div>для бега</div>
 				</li>
-				<li class="catalog__tab">
+				<li class="catalog__tab catalog__tab_active">
 					<div>для триатлона</div>
 				</li>
 			</ul>
 
-			<div class="catalog__content catalog__content_active">
+			<div class="catalog__content">
 				<div class="catalog__item">
 					<div class="catalog-item__wrapper">
 						<div class="catalog-item__content catalog-item__content_active">
@@ -356,7 +356,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="catalog__content">
+			<div class="catalog__content catalog__content_active">
 				<div class="catalog__item">
 					<div class="catalog-item__wrapper">
 						<div class="catalog-item__content catalog-item__content_active">
@@ -421,7 +421,78 @@
 			</div>
 		</div>
 	</section>
-	<footer></footer>
+
+	<section class="reviews">
+		<div class="container">
+			<h2 class="headline">отзывы клиентов</h2>
+
+			<div class="reviews__wrapper">
+				<div class="reviews__item">
+					<a href="#" class="reviews__img">
+						<img src="img/reviews/photo_1.png" alt="user">
+					</a>
+					<div class="reviews__customer">
+						<div class="reviews__name">Ирина Иванченко </div>
+						<div class="reviews__marathon">2 полумарафона</div>
+						<div class="reviews__discsr">Не знала, что себе купить - обратилась к ребятам из RunSmart -
+							подобрали пульсометр, который подошёл именно под мои цели и финансовые возможности.Через
+							некоторое время решила обновить гаджет - не раздумывая обратилась туда же.<br><br>
+							Новые цели - новый гаджет!<br><br>
+							Спасибо, RunSmart! </div>
+					</div>
+				</div>
+
+				<div class="reviews__item">
+					<a href="#" class="reviews__img">
+						<img src="img/reviews/photo_2.png" alt="user">
+					</a>
+					<div class="reviews__customer">
+						<div class="reviews__name">Иван Сёмочкин</div>
+						<div class="reviews__marathon">1 полумарафон</div>
+						<div class="reviews__discsr">Крутая штука-пульсометр. Обычно без них бегал. Оказывается
+							только хуже себе делал.<br><br>
+							Купил пульсометр, ещё в подарок получил тренировку. Со мной вместе провели первую
+							тренировку, научили пользоваться новым гаджетом. Также объяснили основы анатомии,
+							составили план тренировок на месяц вперёд.<br><br>
+							С ними подготовился к своему первому полумарафону! Спасибо!!!</div>
+					</div>
+				</div>
+
+				<div class="reviews__item">
+					<a href="#" class="reviews__img">
+						<img src="img/reviews/photo_3.png" alt="user">
+					</a>
+					<div class="reviews__customer">
+						<div class="reviews__name">Юлия Дашкина</div>
+						<div class="reviews__marathon">2 полумарафона</div>
+						<div class="reviews__discsr">Долго не могла начать бегать, т.к. до этого несколько раз
+							начинала, но становилось тяжело и я бросала. От друзей услышала о RunSmart и о беге с
+							контролем пульса и решила попробовать.<br><br>
+							Позвонила, ребята поинтересовались моими целями и подобрали очень интересный вариант со
+							скидкой! Теперь бегаю и наслаждаюсь бегом! Пробежала уже 2 полумарафона и несколько
+							более коротких забегов и не намерена останавливаться!<br><br>
+							Спасибо!!!</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<iframe
+			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d561.1865418580262!2d37.56440908983599!3d55.76291152431156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a2ce2ad982f%3A0x1b5684a1a6117666!2zS3Jhc25heWEgUHJlc255YSBTdCwgNDQg0YHRgtGA0L7QtdC90LjQtSAzLCBNb3NrdmEsIDEyMzAyMg!5e0!3m2!1sen!2sru!4v1666794945053!5m2!1sen!2sru"
+			width="100%" height="630" style="border:0;" allowfullscreen="" loading="lazy"
+			referrerpolicy="no-referrer-when-downgrade">
+		</iframe>
+		<div class="footer__contacts">
+			<div class="footer__adress">Москва, Мясницкий проезд, д.3с1</div>
+			<a href="tel:84999228974" class="footer__phone">8 (499) 922-89-74</a>
+			<div class="footer__social">
+				<a class="footer__social-icon" href="#"><span class="icon-facebook"></span></a>
+				<a class="footer__social-icon" href="#"><span class="icon-instagram"></span></a>
+				<a class="footer__social-icon" href="#"><span class="icon-pinterest-p"></span></a>
+			</div>
+		</div>
+	</footer>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="script/tabs.js"></script>
