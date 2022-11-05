@@ -68,7 +68,7 @@
             text-align: center;
             margin-top: 15px;
         }
-        &__discr {
+        &__descr {
             font-weight: 300;
             font-size: 14px;
             height: 41px;
@@ -140,10 +140,11 @@
             transform: translateX(0);
             margin-left: 20px;
             padding-right: 20px;
-            padding-left: 19px;
+            padding-left: 20px;
             margin-bottom: 0;
             list-style-type: none;
             li {
+                width: 215px;
                 position: relative;
                 font-weight: 300;
                 font-size: 14px;

@@ -1,13 +1,18 @@
 .feed-form {
+    font-family: sans-serif;
     display: flex;
     flex-direction: column;
     width: 300px;
+    label {
+        font-family: sans-serif;
+    }
     input {
         height: 50px;
         border-radius: 5px;
         background-color: #fff;
         margin-bottom: 15px;
         border: none;
+        outline: none;
         padding: 0 21px;
         font-weight: 400;
         color: #4b4b4b;
@@ -15,5 +20,11 @@
         &:nth-child(3) {
             margin-bottom: 20px;
         }
+        &:focus {
+            border: 1px solid blue;
+        }
+    }
+    &_mt26 {
+        margin-top: 26px;
     }
 }

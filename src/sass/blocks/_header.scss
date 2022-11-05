@@ -34,5 +34,8 @@
         text-decoration-line: none;
         line-height: 17px;
         margin: 7px 0 5px 0;
+        &:hover {
+            color: #ffffff;
+        }
     }
 }

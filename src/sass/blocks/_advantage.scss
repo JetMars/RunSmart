@@ -21,7 +21,7 @@
         font-weight: 700;
         font-size: 18px;
     }
-    &__item-discr {
+    &__item-descr {
         color: #0d0d0d;
         margin-top: 20px;
         font-weight: 300;
@@ -29,6 +29,11 @@
         line-height: 18px;
         a {
             color: #ff0000;
+        }
+    }
+    &__icon {
+        &_animated {
+            animation: heartbeat 1.5s ease infinite;
         }
     }
 }

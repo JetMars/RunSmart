@@ -64,7 +64,7 @@
         &__item-header {
             font-size: 15px;
         }
-        &__item-discr {
+        &__item-descr {
             font-size: 13px;
         }
     }
@@ -76,13 +76,16 @@
         }
     }
     .consultation {
-        &__discr {
+        &__descr {
             font-size: 18px;
             text-align: center;
         }
     }
     .feed-form {
         margin: 0 auto;
+        &_mt26 {
+            margin-top: 26px;
+        }
     }
     .carousel {
         .prev {
@@ -103,6 +106,9 @@
         }
         .tns-outer {
             [data-action="stop"] {
+                display: none;
+            }
+            [data-action="start"] {
                 display: none;
             }
         }
@@ -201,17 +207,17 @@
         }
         &__item {
             width: 230px;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
         }
         &__item-header {
             margin-top: 13px;
         }
-        &__item-discr {
+        &__item-descr {
             margin-top: 6px;
         }
     }
     .consultation {
-        &__discr {
+        &__descr {
             font-size: 14px;
         }
     }
@@ -252,5 +258,24 @@
             font-size: 17px;
             line-height: 17px;
         }
+    }
+
+    .modal {
+        align-items: start;
+        width: 305px;
+        padding: 35px 6px 40px 6px;
+        &__close {
+            top: 6px;
+            right: 3px;
+        }
+        &__subtitle {
+            font-size: 15px;
+        }
+        &__descr {
+            font-size: 12px;
+        }
+    }
+    .feed-form {
+        width: 270px;
     }
 }
